@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#navbar-location{
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.logo-tam{
+  transform: scale(0.5);
+}
+
+#CardFt{
+  height: 40px;
+  width: 40px;
+
+}
+
+#li-d{
+  font-size: 15px;
+}
+
+#card-group{
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+@media (max-width: 855px) {
+  #card-group{
+      text-align: center;
+  }
+}
+
+#card-e{
+  border: 2px solid #a4c4c4;
+  transition: 0.5s;
+}
+
+#card-e:hover {
+  background-color: #a4c4c4;
+}
+
+#marcas{
+  border-top: 11px solid #c7dce2 ;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+@media (max-width: 1450px) {
+  #marcas,#card-group, #navbar-location{
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+}
+
+@media (max-width: 1210px) {
+  #marcas,#card-group, #navbar-location{
+      padding-left: 25px;
+      padding-right: 25px;
+  }
+}
+
+@media (max-width: 1060px) {
+  #marcas{
+      text-align: center;
+  }
+}
+
+.footerD{
+  background-color: #272e32;
+  padding: 30px;
+}
+
+.f-text{
+  display: inline; 
+  color: #ffffff;
+}
+
+@media (max-width: 840px) {
+  #footer-e{
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+  }
 }
