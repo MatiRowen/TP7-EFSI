@@ -11,6 +11,10 @@ body{
   transform: scale(0.5);
 }
 
+.product-tam{
+  transform: scale(0.7);
+}
+
 #CardFt{
   height: 40px;
   width: 40px;
